@@ -10,8 +10,8 @@ struct image {
     struct pixel* data;
 };
 
-void copy_image(struct image* target, struct image* source);
-void free_image(struct image* img);
+struct image create_image(uint64_t width, uint64_t height);
+void destroy_image(struct image* img);
 
 uint8_t calc_image_padding(uint64_t width, uint8_t pixel_size);
 
