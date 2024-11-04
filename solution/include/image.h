@@ -1,5 +1,5 @@
-#ifndef IMAGE_H
-#define IMAGE_H
+#ifndef IMAGE_HEADER
+#define IMAGE_HEADER
 
 #include <stdint.h>
 
